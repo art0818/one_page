@@ -1,0 +1,40 @@
+body { padding-top: 20px }
+
+nav {
+  background: rgb(49, 51, 53);
+  color: #FFF;
+  line-height: 70px;
+  transition: .25s all;
+  width: 100%;
+}
+
+nav.tacked {
+  position: fixed;
+  top: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li.active, nav li:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+@media (min-width:500px) {
+    nav {
+        line-height: 40px;
+    }
+}
+
+a {
+    color: #FFF; 
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+section {
+    height: 400px;
+    padding: 20px 0;
+}
